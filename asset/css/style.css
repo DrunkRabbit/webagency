@@ -223,13 +223,15 @@ body {
 }
 
 .section2-rect {
-  margin: auto 5vw;
+  margin: auto;
   width: 25vw;
   height: 25vh;
 }
 
 .section2-rect h3 {
-  font-size: 20pt;
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 2em;
 }
 
 .section2-rect h3::before {
@@ -239,7 +241,7 @@ body {
 }
 
 .section2-rect p {
-  font-size: 15pt;
+  font-size: 1.1em;
 }
 
 #body-section3 {
@@ -275,7 +277,7 @@ body {
 
 #sub-section3-1 {
   height: 50vh;
-  background: url(/asset/images/background-0.jpg.png), url(/asset/images/background-2-1.jpg) no-repeat center center;
+  background: url(/asset/images/background-0.png), url(/asset/images/background-2-1.jpg) no-repeat center center;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -311,17 +313,17 @@ body {
 }
 
 #rect-3-1 {
-  background: url(/asset/images/background-0.jpg.png), url(/asset/images/background-3-rect-1.jpg) no-repeat center center;
+  background: url(/asset/images/background-0.png), url(/asset/images/background-3-rect-1.jpg) no-repeat center center;
   background-size: cover;
 }
 
 #rect-3-2 {
-  background: url(/asset/images/background-0.jpg.png), url(/asset/images/background-3-rect-2.jpg) no-repeat center center;
+  background: url(/asset/images/background-0.png), url(/asset/images/background-3-rect-2.jpg) no-repeat center center;
   background-size: cover;
 }
 
 #rect-3-3 {
-  background: url(/asset/images/background-0.jpg.png), url(/asset/images/background-3-rect-3.jpg) no-repeat center center;
+  background: url(/asset/images/background-0.png), url(/asset/images/background-3-rect-3.jpg) no-repeat center center;
   background-size: cover;
 }
 
@@ -398,7 +400,7 @@ body {
 .sub-section3-2::after {
   display: block;
   content: "";
-  background: url(/asset/images/rect-0.jpg.png) no-repeat top left;
+  background: url(/asset/images/rect-0.png) no-repeat top left;
   background-size: contain;
   position: absolute;
   margin: -6vh 0 0 -33vw;
