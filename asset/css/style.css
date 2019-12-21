@@ -40,7 +40,7 @@ body {
 #body-section1 {
   color: #ffffff;
   text-align: center;
-  background: url(../asset/images/background-0.jpg.png), url(asset/images/background.jpg) no-repeat center center;
+  background: url(/asset/images/background-0.png), url(/asset/images/background.jpg) no-repeat center center;
   background-size: cover;
 }
 
@@ -496,7 +496,7 @@ body {
 }
 
 .sub-sections1-section4, .sub-sections3-section4 {
-  background: url(/asset/images/background-0.jpg.png);
+  background: url(/asset/images/background-0.png);
   width: 100%;
   padding: 1vh 0;
 }
